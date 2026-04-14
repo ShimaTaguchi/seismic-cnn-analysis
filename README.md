@@ -1,7 +1,7 @@
 # Identification and Visualization of Permutation Entropy Variations in Seismic Noise Before and After Eruptive Activity Using CNN
 
 ## 概要
-火山噴火の予測指標として注目される「順列エントロピー（Permutation Entropy; PE）」の有効性を、深層学習を用いて検証した研究コードです。
+火山噴火の予測指標として注目される「順列エントロピー（Permutation Entropy; PE）」の有効性を、深層学習を用いて検証したコードです。
 
 霧島山新燃岳の噴火現象の前後に観測された地震ノイズをスペクトログラム画像に変換し、CNN（EfficientNet-B0）を用いて噴火段階の識別を行いました。
 
