@@ -41,9 +41,9 @@ Japan Volcanological Data Network (JVDN) から取得した時系列データを
 | Metric | Mean | Std | Max | Min |
 | :--- | :--- | :--- | :--- | :--- |
 | Accuracy | 0.9548 | 0.0176 | 0.9733 | 0.9267 |
-| Precision (II) | 0.9210 | 0.0238 | 0.9600 | 0.8980 |
-| Recall (II) | 0.9467 | 0.0583 | 1.0000 | 0.8200 |
-| F1-score (II) | 0.9435 | 0.0288 | 0.9608 | 0.8817 |
+| Precision (Period II) | 0.9210 | 0.0238 | 0.9600 | 0.8980 |
+| Recall (Period II) | 0.9467 | 0.0583 | 1.0000 | 0.8200 |
+| F1-score (Period II) | 0.9435 | 0.0288 | 0.9608 | 0.8817 |
 
 ![学習曲線の例](assets/learning_curve.png)
 
