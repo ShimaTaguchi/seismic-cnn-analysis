@@ -27,6 +27,7 @@ Japan Volcanological Data Network (JVDN) から取得した時系列データを
 * STFT（短時間フーリエ変換）を用いて、24時間分の時系列データからスペクトログラム画像を作成
 
 ![入力スペクトログラム画像の例](assets/spectrogram.png)
+
 *図1: モデルの入力として作成したスペクトログラム画像の例（横軸：時間、縦軸：周波数）*
 
 ### 2. モデルアーキテクチャ
@@ -45,15 +46,18 @@ Japan Volcanological Data Network (JVDN) から取得した時系列データを
 | F1-score (II) | 0.9435 | 0.0288 | 0.9608 | 0.8817 |
 
 ![学習曲線の例](assets/learning_curve.png)
+
 *図2: 学習時のAccuracyおよびLossの推移*
 
 ### 4. 識別根拠の可視化 (Grad-CAM)
 噴火直前のクラス（Period II）に対するモデルの着目領域を可視化
 
 ![PE変動のプロット例](assets/PE_plot.png)
+
 *図3: 噴火直前における順列エントロピー(PE)の変動*
 
 ![Grad-CAM可視化結果](assets/gradcam.png)
+
 *図4: Grad-CAMによるヒートマップ*
 
 ## ディレクトリ構成
